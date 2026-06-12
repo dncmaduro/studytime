@@ -27,7 +27,6 @@ export function AuthShell({
             <h1 className="mt-4 max-w-xl text-5xl font-semibold leading-tight text-white">
               {t("authHeroTitle")}
             </h1>
-            <p className="mt-5 max-w-lg text-base text-slate-300">{t("authHeroDescription")}</p>
             <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-300">
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">{t("authChipLiveTimers")}</span>
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">{t("authChipPrivateGroups")}</span>
